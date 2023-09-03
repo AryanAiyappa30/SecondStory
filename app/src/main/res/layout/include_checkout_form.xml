@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing_medium">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_xxlarge"
+        android:gravity="center_vertical|start"
+        android:paddingHorizontal="@dimen/spacing_large"
+        android:text="@string/buyer_profile"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        android:textColor="@color/grey_20" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/buyer_name_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/buyer_name"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/edit_text_round"
+                android:hint="@string/hint_name"
+                android:inputType="text"
+                android:maxLength="50"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_lyt"
+            android:layout_width="match_parent"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/edit_text_round"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone_lyt"
+            android:layout_width="match_parent"
+            app:hintAnimationEnabled="false"
+            android:layout_marginTop="@dimen/spacing_middle"
+            app:hintEnabled="false"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/edit_text_round"
+                android:hint="@string/hint_phone"
+                android:inputType="phone"
+                android:maxLength="50"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/address_lyt"
+            android:layout_width="match_parent"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_round"
+                android:gravity="top|start"
+                android:hint="@string/hint_address"
+                android:lines="3"
+                android:maxLength="300"
+                android:maxLines="4"
+                android:minHeight="?attr/actionBarSize"
+                android:minLines="1"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt_shipping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/edit_text_round"
+                android:gravity="center_vertical|start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/shipping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_shipping"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textColor="@color/grey_60" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/bt_shipping_location"
+                    android:layout_width="@dimen/spacing_xlarge"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_search"
+                    app:tint="@color/colorPrimary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/shipping_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/spacing_medium">
+
+            <RadioButton
+                android:id="@+id/radio_economy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shipping_economy" />
+
+            <RadioButton
+                android:id="@+id/radio_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shipping_regular" />
+
+            <RadioButton
+                android:id="@+id/radio_express"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shipping_express" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/edit_text_round"
+                android:gravity="center_vertical|start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/date_shipping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_date_ship"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textColor="@color/grey_60" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/bt_date_shipping"
+                    android:layout_width="@dimen/spacing_xlarge"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_date"
+                    app:tint="@color/colorPrimary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/comment_lyt"
+            android:layout_width="match_parent"
+            app:hintAnimationEnabled="false"
+            app:hintEnabled="false"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_round"
+                android:gravity="top|start"
+                android:hint="@string/hint_comment"
+                android:lines="3"
+                android:maxLength="500"
+                android:maxLines="4"
+                android:minHeight="?attr/actionBarSize"
+                android:minLines="1"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

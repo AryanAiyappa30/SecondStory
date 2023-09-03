@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "590100000184",
+    "firebase_url": "https://markeet-xxxxx.firebaseio.com",
+    "project_id": "markeet-xxxxx",
+    "storage_bucket": "markeet-95f6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590100000184:android:ba496a3a09675b48",
+        "android_client_info": {
+          "package_name": "com.app.markeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590100000184-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrHhoC7JUQEDY4xxxxxxxxxxxxxxxxxxx"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

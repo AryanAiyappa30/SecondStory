@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <!--GDPR property -->
+    <entry>
+        <key>publisher_id</key>
+        <value>pub-3940256099942544</value>
+    </entry>
+    <entry>
+        <key>privacy_policy_url</key>
+        <value>http://dream-space.web.id/</value>
+    </entry>
+
+
+</defaultsMap>

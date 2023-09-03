@@ -1,0 +1,302 @@
+<resources>
+    <string name="app_name">SecondStory</string>
+    <string name="app_tag_line">Online Books Resale Store for Everyone</string>
+
+    <string name="title_about">About</string>
+    <string name="content_about">Connect with a vibrant community of students on our SecondStory app designed for buying and selling pre-loved textbooks. Simplify your campus life by effortlessly reselling old books and discovering affordable course materials. Empower your academic journey with SecondStory\'s convenient platform tailored for students, by students.</string>
+
+
+
+
+    <string name="title_activity_news_info">News Info</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_wishlist">Wishlist</string>
+    <string name="title_activity_cart">Shopping Cart</string>
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="title_activity_history">Order History</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--All data for ActivityMain.java -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="str_nav_shopping_cart">Shopping Cart</string>
+    <string name="str_nav_wishlist">Wishlist</string>
+    <string name="str_nav_history">Order History</string>
+    <string name="str_nav_news">News Info</string>
+    <string name="str_nav_notifications">Notifications</string>
+    <string name="sub_title_nav_others">Others</string>
+    <string name="str_nav_instruction">Instruction</string>
+    <string name="str_nav_setting">Settings</string>
+    <string name="str_nav_rate">Rate</string>
+    <string name="str_nav_about">About</string>
+    <string name="press_again_exit_app">Press again to exit</string>
+
+    <string name="title_what_news">What\'s News</string>
+    <string name="title_category">Categories</string>
+
+    <!--All data for ActivityCategoryDetails.java -->
+    <string name="title_menu_search">Search</string>
+    <string name="title_menu_delete">Delete</string>
+    <string name="title_menu_add">Add</string>
+    <string name="title_menu_sort">Product Sort</string>
+    <string name="title_dialog_sort">Product Sort</string>
+
+    <!--All data for ActivityProductDetails.java -->
+    <string name="please_wait_text">Please wait until data loaded</string>
+    <string name="categories_product">Categories :&#160;</string>
+    <string name="cannot_add_wishlist">cannot add to wishlist</string>
+    <string name="add_wishlist">Add to wishlist</string>
+    <string name="remove_wishlist">Remove from wishlist</string>
+    <string name="add_cart">Add to shopping cart</string>
+    <string name="remove_cart">Remove from shopping cart</string>
+    <string name="msg_out_of_stock">Ops, Product out of stock</string>
+    <string name="msg_suspend">Ops, Product is suspend</string>
+    <string name="out_of_stock">OUT OF STOCK</string>
+    <string name="suspend">SUSPEND</string>
+    <string name="ready_stock">READY STOCK</string>
+    <string name="bt_add_cart">ADD TO CART</string>
+    <string name="bt_remove_cart">REMOVE FROM CART</string>
+
+    <!--All data for ActivitySplash.java -->
+    <string name="title_unable_connect">Unable connect to server</string>
+    <string name="msg_unable_connect">Server temporary down or under maintenance</string>
+    <string name="msg_app_out_date">Application is out of date, please update to get latest version</string>
+    <string name="msg_no_internet">Please check your Internet connection and try again</string>
+    <string name="title_info">Information</string>
+    <string name="title_no_internet">No Internet Connection</string>
+
+    <!--All data for ActivityWishlist.java -->
+    <string name="msg_wishlist_empty">Wishlist is empty</string>
+    <string name="title_menu_wishlist">Wishlist</string>
+
+    <!--All data for ActivityShoppingCart.java -->
+    <string name="msg_cart_empty">Shopping Cart is empty</string>
+    <string name="before_tax">( Before tax )</string>
+    <string name="total_sub">Subtotal&#160;</string>
+    <string name="stock">Stock : &#160;</string>
+    <string name="QUANTITY">QUANTITY</string>
+    <string name="items">Item(s)</string>
+    <string name="title_menu_checkout">Checkout</string>
+
+    <!--All data for ActivitySearch.java -->
+    <string name="ALL">ALL</string>
+    <string name="Category">Category :&#160;</string>
+    <string name="hint_input_search">Search input</string>
+    <string name="please_fill">Please Fill Search Input</string>
+
+    <!--All data for ActivityOrderHistory.java -->
+    <string name="hint_order_code">Order Code</string>
+    <string name="msg_history_empty">Order History is empty</string>
+    <string name="title_history_details">Order Details</string>
+    <string name="title_history_add">Order History Add</string>
+    <string name="please_fill_order_code">Please fill order code</string>
+    <string name="order_already_exist">Order already exist</string>
+    <string name="order_added">Order with code : %s added successfully</string>
+    <string name="order_status">Order Status</string>
+    <string name="payment_status">Payment Status</string>
+
+    <string name="STATUS_WAITING">WAITING</string>
+    <string name="STATUS_PROCESSED">PROCESSED</string>
+    <string name="STATUS_CANCEL">CANCEL</string>
+
+    <string name="PAYMENT_PAID">PAID</string>
+    <string name="PAYMENT_REFUND">REFUND</string>
+    <string name="PAYMENT_PENDING">PENDING</string>
+    <string name="PAYMENT_EXPIRED">EXPIRED</string>
+    <string name="PAYMENT_DENIED">DENIED</string>
+    <string name="UNKNOWN">UNKNOWN</string>
+
+    <!--All data for ActivityNotification.java -->
+    <string name="msg_notif_empty">Notification is empty</string>
+    <string name="default_notification_channel_id">Default</string>
+
+    <!--All data for ActivityCheckout.java -->
+    <string name="cost_details">Cost Details</string>
+    <string name="sub_total">Subtotal :&#160;</string>
+    <string name="shipping">Shipping&#160;</string>
+    <string name="tax">Tax&#160;</string>
+    <string name="total_fess">Total :&#160;</string>
+    <string name="buyer_profile">Buyer Profile</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_shipping">Shipping location</string>
+    <string name="choose_shipping">Choose shipping</string>
+    <string name="hint_date_ship">Date Shipping</string>
+    <string name="hint_comment">Comment</string>
+    <string name="product_order_list">Product Order List</string>
+    <string name="hint_input_location">Type location</string>
+    <string name="shipping_economy">Economy</string>
+    <string name="shipping_regular">Regular</string>
+    <string name="shipping_express">Express</string>
+
+    <string name="invalid_name">invalid name</string>
+    <string name="invalid_email">invalid email</string>
+    <string name="invalid_phone">invalid phone</string>
+    <string name="invalid_address">invalid address</string>
+    <string name="invalid_shipping">invalid shipping</string>
+    <string name="invalid_date_ship">invalid date shipping</string>
+    <string name="invalid_comment">invalid comment</string>
+
+    <string name="title_please_wait">Please Wait</string>
+    <string name="content_submit_checkout">Submit Checkout&#8230;</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="confirm_checkout">Are you sure want to checkout this order?</string>
+    <string name="failed_checkout">
+        Oops, Failed when checkout order
+        \n\nMake sure you have internet connection, or if you need help please Contact Us from menu Settings
+    </string>
+    <string name="success_checkout">Congratulation</string>
+    <string name="msg_success_checkout">
+        Successfully checkout order.\nYour order code : %1$s.
+    </string>
+    <string name="process_checkout">PROCESS CHECKOUT</string>
+
+    <!--All data ActivityNewsInfoDetails.java -->
+    <string name="featured">featured</string>
+
+    <!--All data for ActivityDialogNotification.java -->
+    <string name="title_notif_details">Notification Details</string>
+    <string name="title_notif">Notification</string>
+
+    <!--All data ActivityFullScreenImage.java -->
+    <string name="image_of">%1$d of %2$d</string>
+
+    <!--All data related about page-->
+    <!--Size three array below must be same -->
+    <string-array name="about_title_array">
+        <item>WELCOME</item>
+        <item>DISCOVER PRODUCT</item>
+        <item>ADD TO CART</item>
+        <item>VERIFY AND RECEIVE</item>
+    </string-array>
+
+    <string-array name="about_description_array">
+        <item>SecondStory is Premium Online Book Store\nPlatform for Everyone</item>
+        <item>Search Latest and Featured Products\nWith Best Price</item>
+        <item>Add to Cart All Product You need\nAnd Checkout the Order</item>
+        <item>We Will Verify Your Order\nPay the Bill and Receive the Product</item>
+    </string-array>
+
+    <integer-array name="about_images_array">
+        <item>@drawable/intro_img_1</item>
+        <item>@drawable/intro_img_2</item>
+        <item>@drawable/intro_img_3</item>
+        <item>@drawable/intro_img_4</item>
+    </integer-array>
+
+    <!-- Activity Setting : xml/setting_preference.xml -->
+    <string name="app_version">Version</string>
+    <string name="developer_email">secondstory2k23@gmail.com</string>
+    <string name="copyright">Copyright © 2023 SecondStory. \nAll rights reserved</string>
+
+    <string name="pref_group_notif">NOTIFICATIONS</string>
+    <string name="pref_group_others">OTHERS</string>
+    <string name="pref_title_notif">Push Notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_title_copyright">Copyright</string>
+    <string name="pref_title_contact_us">Contact Us</string>
+    <string name="pref_title_build">Build Version &amp; Serial </string>
+    <string name="pref_title_term">Term &amp; Policies</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="grant_permission_storage">Grant storage permission to enable</string>
+
+    <string name="content_term">
+     1. Acceptance of Terms\n
+
+        By accessing or using the App, you acknowledge that you have read, understood, and agreed to these Terms and Conditions, as well as our Privacy Policy. If you do not agree with these terms, do not use the App.\n
+
+    2. User Accounts\n
+
+    2.1. To use certain features of the App, you may need to create a user account. You agree to provide accurate and complete information during the registration process and to keep your account information up to date.\n
+
+    2.2. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account.\n
+
+    3. Buying and Selling\n
+
+    3.1. The App provides a platform for users to buy and sell old books. Users are solely responsible for the accuracy and completeness of the book listings they create.\n
+
+    3.2. Buyers and sellers interact directly with each other for transactions. The App does not guarantee the quality, condition, or legality of the books listed or the transactions conducted through the App.\n
+
+    4. Content and Communication\n
+
+    4.1. Users are responsible for the content they post on the App, including book listings, reviews, and comments. You agree not to post content that is illegal, offensive, or violates the rights of others.\n
+
+    4.2. The App reserves the right to remove any content that violates these terms or is deemed inappropriate, without notice.\n
+
+    5. Privacy\n
+
+    Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your personal information.\n
+
+    6. Intellectual Property\n
+
+    6.1. The content, design, and features of the App are protected by copyright and other intellectual property laws. You may not copy, modify, distribute, or reproduce any part of the App without our written permission.\n
+
+    6.2. By posting content on the App, you grant us a non-exclusive, royalty-free, worldwide license to use, reproduce, modify, and distribute the content for the purpose of operating the App.\n
+
+    7. Disclaimer of Warranties\n
+
+    The App is provided on an "as-is" basis. We make no representations or warranties regarding the accuracy, reliability, or availability of the App or its content. Your use of the App is at your own risk.\n
+
+    8. Limitation of Liability\n
+
+    To the extent permitted by law, we shall not be liable for any indirect, incidental, consequential, or punitive damages arising out of your use of the App.\n
+
+    9. Changes to Terms\n
+
+    We reserve the right to modify or revise these Terms and Conditions at any time. Any changes will be effective upon posting on the App. Your continued use of the App after such changes indicates your acceptance of the modified terms.\n
+    </string>
+    <string name="version_unknown">Unknown</string>
+
+    <!-- Sort By Label -->
+    <string name="sort_new_old">Time : New to Old</string>
+    <string name="sort_old_new">Time : Old to New</string>
+    <string name="sort_low_high">Price : Low to High</string>
+    <string name="sort_high_low">Price : High to Low</string>
+    <string name="sort_discount">Discount</string>
+
+    <!-- Other String -->
+    <string name="data_not_found">Data not found</string>
+    <string name="failed_text">Failed When Load Data</string>
+    <string name="no_internet_text">No Internet Connection</string>
+    <string name="no_item">No Item</string>
+    <string name="msg_data_loaded">Data loaded</string>
+    <string name="msg_failed_load_data">Failed when load data</string>
+    <string name="title_delete_confirm">Delete Confirmation</string>
+    <string name="content_delete_confirm">Are you sure want to delete all&#160;</string>
+    <string name="content_delete_one_confirm">Are you sure want to delete Order %s&#160;</string>
+    <string name="delete_success">Delete successfully</string>
+    <string name="msg_copied_clipboard">Text copied to clipboard</string>
+    <string name="failed">Failed</string>
+
+    <string name="OK">OK</string>
+    <string name="GOT_IT">GOT IT</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="SETTING">SETTING</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="UPDATE">UPDATE</string>
+    <string name="DISMISS">DISMISS</string>
+    <string name="HIDE">HIDE</string>
+    <string name="RETRY">RETRY</string>
+    <string name="TRY_AGAIN">TRY AGAIN</string>
+    <string name="DETAILS">DETAILS</string>
+    <string name="FAILED">FAILED</string>
+    <string name="TYPE_SEARCH">SEARCH</string>
+    <string name="NO_IMAGE">NO IMAGE</string>
+    <string name="DELETE">DELETE</string>
+    <string name="OPEN">OPEN</string>
+    <string name="SAVE">SAVE</string>
+    <string name="NEXT">NEXT</string>
+    <string name="SKIP">SKIP</string>
+    <string name="APPLY">APPLY</string>
+    <string name="PAY_NOW">PAY NOW</string>
+    <string name="FIND">FIND</string>
+
+    <string name="app_name_ctb">ChatBot</string>
+
+
+</resources>
